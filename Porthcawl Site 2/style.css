@@ -1,0 +1,256 @@
+/*imports --------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Kodchasan|Roboto');
+
+/*
+
+*/
+/*-----------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+/*-----------------------------------*/
+
+/*
+@media (max-width:960px){
+
+.main-header h1{
+    color:blue;
+    margin:0;
+    padding:0;
+  display:block;
+  font-size:4em;
+   }
+  
+.name{
+  width:100%;
+  border:2px blue solid;
+  float:left;
+}
+*/
+
+
+
+
+
+
+/*-----------------------------------*/
+
+
+
+
+
+
+/*pre-defined elements --------------------*/
+
+body {
+  padding: 0;
+  Margin: 0;
+
+
+}
+
+
+
+
+/*classes---------------------------------*/
+
+.name {
+  float: left;
+  margin: 0;
+  padding: 30px;
+  font-family: 'Comfortaa';
+}
+
+.main-header {
+  margin: 0;
+  width: 100%;
+  height: 850px;
+  background-color: dodgerblue;
+  text-align: center;
+  background: linear-gradient(dodgerblue, transparent 90%), linear-gradient(to top, #fff, transparent 90%),
+    url("Porthcawl-Beach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.t-border {
+  border-radius: 10px;
+  border-bottom: 2px lightgray solid;
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.main-heading,
+.sub-heading {
+  color: white;
+
+}
+
+.main-heading {
+  margin: 0;
+  padding: 150px 0 10px 0;
+  font-size: 9em;
+  letter-spacing: 11px;
+  font-family: 'Roboto', cursive;
+
+
+}
+@media(max-width:920px){
+  .main-heading{
+    font-size: 6rem;
+    padding:90px 0 0;
+
+  }
+  .main-header{
+    height: 650px;
+
+  }
+
+
+  
+}
+
+.sub-heading {
+  font-family: 'Kodchasan', sans-serif;
+  width: 100%;
+  display: inline-block;
+  font-size: 2em;
+}
+
+
+.arrow {
+  width: 100px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.primary-content {
+  letter-spacing: 1;
+width: 100%;
+  /*border: 1px solid rgb(255, 169, 73);*/
+}
+
+
+
+
+.about-porthcawl {
+  margin: auto;
+  padding: 120px 150px;
+  max-width: 900px;
+  margin-bottom: 50px;
+  width: 60%;
+  border: dodgerblue solid;
+  border-width: 10px 0 0 0;
+  box-shadow: 0 0 7px lightgray;
+  border-radius: 5px;
+  /*  font styles -------------*/
+  font-size: 1.5em;
+  font-family: sans-serif;
+  line-height: 1.5;
+
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+  letter-spacing: 2;
+  background: url(sand-bottle.jpg)100%;
+  background-size: cover;
+  box-shadow: inset 0 0 40px #000, 0 0 3px #000;
+  background-color: coral;
+
+
+
+}
+
+.intro {
+
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+  padding: 100px 100px 10px 100px;
+  width: 70%;
+  font-family: 'Roboto';
+  font-size: 1.5em;
+}
+
+.intro span {
+  text-transform: capitalize;
+  color: dodgerblue;
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.Link1 .FOM {
+  border-radius: 5px;
+  /*  border:1px rgb(255, 169, 73) solid;*/
+  box-shadow: 0 1px 5px lightgray;
+}
+
+.Link1,
+.FOM {
+  text-transform: lowercase;
+  font-size: 1.5em;
+  font-family: 'Roboto';
+  text-align: center;
+  margin: 60px 0 110px;
+  padding: 10px 20px 10px;
+  text-decoration: none;
+  color: dodgerblue;
+
+
+}
+
+.link,
+.FOM:hover {
+  background-color: dodgerblue;
+  color: rgb(255, 169, 73);
+}
+
+a:focus {
+  outline: 0;
+
+}
+
+.footer-ul {
+  margin: 200px 0 0 0;
+  padding: 20px 0;
+
+  list-style-type: none;
+  background-color: dodgerblue;
+  text-align: center;
+
+
+}
+
+.footer-ul li {
+  display: inline-block;
+  border: 1px solid dodgerblue;
+  border-radius: 2px;
+  max-width: 900px;
+  margin: auto;
+
+}
+
+.contact {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 44px;
+  color: white;
+  font-family: 'Roboto';
+
+}
+
+.footer-ul li:hover {
+  border-color: rgb(255, 169, 73);
+  color: rgb(255, 169, 73);
+  max-width: 900px;
+}
+
+
